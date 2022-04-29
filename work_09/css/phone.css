@@ -1,0 +1,218 @@
+body {
+  background-color: #f1efed;
+}
+
+span, p {
+  font-size: 12px;
+}
+
+i{
+  color: #8ce5de;
+}
+
+.m-hd-label {
+  background-color: #00c2af;
+  color: #FFFFFF;
+}
+
+.m-hd-label > div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.m-hd-label > div:last-child {
+  margin-top: 5px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.m-hd-label > .col-xs-2 > .dropdown > button {
+  background-color: #00c2af;
+  color: #FFFFFF;
+}
+
+.m-hd-label > .col-xs-8 > .input-group > .input-group-btn > button {
+  border-right: 0;
+  background-color: #00a595;
+  color: #FFFFFF;
+}
+
+.m-hd-label > .col-xs-8 > .input-group > input {
+  border-left: 0;
+  background-color: #00a595;
+}
+
+.m-hd-label > .col-xs-2 > .text-center > i,
+.m-hd-label > .col-xs-2 > .text-center > p {
+  margin-bottom: 0;
+}
+
+.m-hd-tab {
+  border-bottom: #e7e2da solid 1px;
+  background-color: #ffffff;
+}
+
+.m-bd-fir {
+  margin-top: 15px;
+  background-color: #FFFFFF;
+}
+
+.m-bd-fir > .col-xs-4 {
+  border-right: 1px solid #f5f2ef;
+}
+
+.m-bd-fir > .col-xs-4 > div {
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+
+.m-bd-fir > .col-xs-4 > div > img {
+  background-color: #666666;
+  width: 100px;
+  height: 100px;
+}
+
+.m-bd-fir > .col-xs-8 > .col-xs-12 {
+  border-bottom: 1px solid #f5f2ef;
+}
+
+.m-bd-fir > .col-xs-8 > div:nth-child(2) {
+  border-right: 1px solid #f5f2ef;
+}
+
+.m-bd-fir > .col-xs-8 > .col-xs-12 > div:first-child {
+  padding-left: 0;
+}
+
+.m-bd-fir > .col-xs-8 > .col-xs-12 > div:last-child {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.m-bd-fir > .col-xs-8 > .col-xs-12 > .col-xs-6 > img {
+  background-color: #666666;
+  width: 70px;
+  height: 70px;
+}
+
+.m-bd-fir > .col-xs-8 > div:nth-child(2) > div > img {
+  background-color: #666666;
+  width: 50px;
+  height: 50px;
+}
+
+.m-bd-fir>.col-xs-8>div:last-child>i>span{
+  color: #FFFFFF;
+  background-color: #4b4b4b;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.m-bd-sec {
+  margin-top: 15px;
+  background-color: #FFFFFF;
+}
+
+.m-bd-sec > div:first-child {
+  border-right: 1px solid #f5f2ef;
+}
+
+.m-bd-sec > .col-xs-6 {
+  padding-left: 0;
+}
+
+.m-bd-sec > .col-xs-6 > div:last-child {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.m-bd-sec > .col-xs-6 > .col-xs-6 > img {
+  background-color: #666666;
+  width: 70px;
+  height: 70px;
+}
+
+.m-ft {
+  margin-top: 15px;
+  background-color: #FFFFFF;
+}
+
+.m-ft-fir,
+.m-ft-sec{
+  background-color: #FFFFFF;
+}
+
+.m-sell {
+  border-top: 1px #e5dfd6 solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.m-sell > .col-xs-3 > img {
+  background-color: #666666;
+  width: 90px;
+  height: 90px;
+}
+
+.m-sell:nth-child(1) > .col-xs-3 > img::before,
+.m-sell:nth-child(2) > .col-xs-3 > img::before,
+.m-sell:nth-child(3) > .col-xs-3 > img::before{
+  position: absolute;
+  top: -42px;
+  left: -21px;
+  content: "　";
+  text-align: center;
+  border-bottom: 24px solid #00c2af;
+  border-top: 30px solid transparent;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(-45deg);
+}
+
+.m-sell:nth-child(1) > .col-xs-3 > img::after,
+.m-sell:nth-child(2) > .col-xs-3 > img::after,
+.m-sell:nth-child(3) > .col-xs-3 > img::after{
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  content: "免预约";
+  color: #FFFFFF;
+  font-size: 12px;
+  transform: rotate(-45deg);
+}
+
+.m-discount {
+  font-size: 13px;
+  padding: 2px;
+  color: #ffb647;
+  border: #ffbd59 2px solid;
+  border-radius: 5px;
+}
+
+.m-sell > .col-xs-9 > div > span:last-child {
+  float: right;
+}
+
+.m-ft-thi {
+  height: 40px;
+  line-height: 40px;
+  background-color: #8fc6ea;
+  color: #15b5d4;
+  font-size: 20px;
+}
+
+.m-ft-thi > p {
+  padding-left: 15px;
+}
+
+.m-ft-thi > div>p > span {
+  float: right;
+}
+
+.col-xs-9 > div > i {
+  margin-right: 5px;
+}
+
+i > b {
+  font-size: 20px;
+}

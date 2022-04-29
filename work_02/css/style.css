@@ -1,0 +1,169 @@
+/* 背景图片 */
+html {
+    height: 100%;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat 0px 0px ;
+    opacity: .4;
+}
+
+.m-menu {
+    text-align: center; 
+    width: 80%; 
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-left: 84px;
+    padding: 10px;
+    letter-spacing: 1.9px;
+    display: flex;
+    justify-content: space-around;
+    color: darkgray;
+}
+
+.m-menu-left {
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.m-menu-lef {
+    width: 64%;
+    height: 100%;
+    float:left;
+}
+
+.m-menu-left-al {
+    margin-top: 31px;
+    margin-left: 7px;
+}
+
+.m-menu-left-all {
+    margin-top: 74px;
+    margin-left: 7px;
+}
+
+.m-left {
+    margin-top: 16px;
+    letter-spacing: .8px;
+    color: darkgrey;
+}
+
+.m-left-one { 
+    margin-top: 11px;
+    font-size:26px;
+    word-spacing: -4.9px;
+    font-weight: bold;
+    color:black;
+}
+
+.m-left-two {
+    margin-top: 30px;
+    color: black;
+    /* font-weight: bold; */
+    word-spacing: -1.8px;
+}
+
+.m-left-three {
+    margin-top: 11px;
+    word-spacing: 2.6px;
+    color: darkgrey;
+}
+
+.m-midd {
+    float: right;
+    margin-top: -180px;
+}
+
+.m-border {
+    width: 96%;
+    margin: 0 auto;
+    border: 0.5px solid #e6e6e6;
+    margin-top: 16px;
+    background: #e6e6e6;
+}
+
+.m-menu-right {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.m-menu-top {
+    font-size:26px;
+    font-weight: bold;
+    margin-top: 74px;
+    margin-left: 28px;
+    word-spacing: -5.7px;
+    color: black;
+}
+
+.m-top-border {
+    width: 85%;
+    margin: 0 auto;
+    border: 0.5px solid #e6e6e6;
+    margin-top: 30px;
+    background: #e6e6e6;
+}
+
+.m-right-all {
+    margin-top: 30px;
+}
+
+.m-right-lett {
+    float: right;
+}
+
+.m-right-num {
+    font-size: 34px;
+    margin-left: 28px;
+    margin-top: 44px;
+    color: darkgray;
+}
+
+.m-right-one {
+    font-weight: bold;
+    margin-right: 41px;
+    margin-top: -31px;
+    font-size: 19px;
+}
+
+.m-right-on {
+    font-weight: bold;
+    margin-right: 41px;
+    word-spacing: 1px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.m-right-o {
+    font-weight: bold;
+    margin-right: 41px;
+    word-spacing: 1px;
+    margin-top: 7px;
+    font-size: 19px;
+}
+
+.m-right-two {
+    margin-top: 16px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: black;
+}
+
+.m-right-three {
+    margin-top: 10px;
+    letter-spacing: 1.3px;
+    word-spacing: 1.4px;
+    color: darkgrey;
+}
+
+.m-right-a {
+    margin-top: 140px;
+}
+
+.m-right-lettwo {
+    margin-left: 92px;
+}
+
+.m-right-b {
+    margin-top: 20px;
+}

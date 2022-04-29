@@ -1,0 +1,8 @@
+.menu> li {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.menu> li:hover {
+  color: red;
+} 

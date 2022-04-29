@@ -1,0 +1,155 @@
+.m-hd {
+  background-color: #008def;
+}
+
+p{
+  word-wrap:break-word;
+  word-break:break-all;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.nav > li > a {
+  color: #FFFFFF;
+}
+
+.m-hd-top> a {
+  font-size: 14px;
+  color: white;
+}
+
+img{
+  background-color: #666666;
+}
+
+.m-top-tg>div>.col-md-6>p>span{
+  color: #3aa3dc;
+}
+
+p>span{
+  color: #afa5a7;
+}
+
+.m-hd-n,
+.m-top,
+.m-bd{
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.input-group{
+  margin-top: 10px;
+}
+
+.input-group > .input-group-btn > button,
+.input-group > input,
+.input-group > span {
+  font-size: 12px;
+  height: 31px;
+}
+
+.navbar-nav{
+  margin-left: 20px;
+}
+
+.m-top,
+.m-bd{
+  margin-top: 20px;
+}
+
+
+.m-lf{
+  width: 66%;
+  padding: 0;
+}
+.m-rg{
+  width: 32%;
+  margin-left: 2%;
+  padding: 0;
+}
+
+
+.m-top-tg{
+  background-color: #f4f4f4;
+  height: 300px;
+}
+
+.m-top-tg>div{
+  width: 80%;
+  margin: 0 auto;
+  border-top: #6e6e6e 2px dashed;
+}
+
+.m-top-tg>p{
+  /*margin-top: 30px;*/
+  position: relative;
+  top:40px;
+}
+.m-top-tg>button{
+  margin-top: 70px;
+}
+
+.m-top-tg>div{
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.m-top-tg>div>div>p{
+  color: #afa5a7;
+}
+
+.col-md-4>p>a{
+  float: right;
+}
+
+.m-bd>.m-lf>div>div{
+  padding: 10px;
+  border: 1px #f0f0f0 solid;
+}
+
+.m-lf>div>div>p{
+  /*margin-top: 40px;*/
+  margin-bottom: 0px;
+}
+
+.m-rg>div{
+  padding: 10px;
+  border: 1px #f0f0f0 solid;
+  overflow:hidden;
+  margin-bottom: 10px;
+}
+
+.m-bd>.m-rg>div:nth-child(3)>div,
+.m-bd>.m-rg>div:nth-child(2)>div{
+  position: absolute;
+  height: 200px;
+  width: 28px;
+  background-color: #0092f1;
+  transform: rotate(-45deg);
+  top: -32%;
+  left: 88%;
+}
+
+.m-bd>.m-rg>div:nth-child(3)>span,
+.m-bd>.m-rg>div:nth-child(2)>span{
+  position: absolute;
+  /* background-color: #0092f1; */
+  color: #FFFFFF;
+  transform: rotate(45deg);
+  top: 11%;
+  left: 87%;
+  font-size: 12px;
+}
+
+.m-bd>.m-rg>div:last-child>div:last-child>img::before{
+  content: "第128期";
+  background-color: #191919;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  top: 132px;
+  opacity: 0.8;
+}

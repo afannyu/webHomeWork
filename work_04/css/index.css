@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.m-bg {
+    position: absolute;
+    width: 608px;
+    height: 881px;
+    background: url("../img/bk.jpg") no-repeat;
+    background-size: 60% 60%;
+    opacity: .4;
+}
+
+.m-main {
+    box-sizing: border-box;
+    width: 366px;
+    height: 530px;
+    border: 10px solid #f2f2f2;
+}
+
+/* 待收货，，，待评价等等 */
+.m-hd>li>label {
+    display: block;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.m-hd>li:nth-child(1) {
+    position: absolute;
+    left: 60.3px;
+}
+
+.m-hd>li:nth-child(2) {
+    position: absolute;
+    left: 138.3px;
+}
+
+.m-hd>li:nth-child(3) {
+    position: absolute;
+    left: 218.3px;
+}
+
+.m-hd>li:nth-child(4) {
+    position: absolute;
+    left: 298px;
+}
+
+.m-hd>li {
+    top: 18px;
+}
+
+.m-hd>li>span {
+    display: block;
+    font-size: 14.1px;
+    margin-left: -16px;
+}
+
+/* 网上有害信息举报专区 */
+.m-banner {
+    position: absolute;
+    height: 30px;
+    width: 346px;
+    margin-top: 66px;
+    background-color: #ffdbc1;
+}
+
+.m-banner>span {
+    position: absolute;
+    font-size: 14px;
+    margin-left: 96px;
+    color: #ff6700;
+    letter-spacing: .4px;
+    margin-top: 6px;
+}
+
+.m-banner>svg {
+    position: absolute;
+    width: 13.5px;
+    margin-left: 275px;
+    margin-top: -33px;
+    -webkit-transform: rotate(-90deg);
+}
+
+/* 公告，，规则，公益等等 */
+.m-menu>li {
+    font-size: 13px;
+    margin-top: 117px;
+}
+
+.m-menu>li:nth-child(1) {
+    position:absolute;
+    left: 37px;
+}
+
+.m-flag {
+    position: absolute;
+    width: 36px;
+    border: 1px solid #ff6700;
+    background-color: #ff6700;
+    left: 161px;
+    top: 148px;
+}
+
+.m-menu>li:nth-child(2) {
+    position: absolute;
+    left: 102px;
+}
+
+.m-menu>li:nth-child(3) {
+    position: absolute;
+    left: 166px;
+    font-weight: bold;
+}
+
+.m-menu>li:nth-child(4) {
+    position: absolute;
+    left: 231px;
+}
+
+.m-menu>li:nth-child(5) {
+    position: absolute;
+    left: 296px;
+}
+
+/* 淘宝1212大促招商，，运营神器年中大促等等。。 */
+.m-news>li {
+    position: absolute;
+    font-size: 14px;
+}
+
+.m-news>li:nth-child(1) {
+    left: 22px;
+    top: 169px;
+    color: #ff6700;
+    letter-spacing: .1px;
+}
+
+.m-news>li:nth-child(2) {
+    left: 179px;
+    top: 169px;
+    color: #ff6700;
+    letter-spacing: .1px;
+}
+
+.m-news>li:nth-child(3) {
+    left: 22px;
+    top: 199px;
+    letter-spacing: .3px;
+}
+
+.m-news>li:nth-child(4) {
+    left: 179px;
+    top: 199px;
+    letter-spacing: .1px;
+}
+
+/* 充值话费，旅行等等业务 */
+.m-con>li>svg {
+    position: absolute;
+    top: 169px;
+}
+
+.m-con>li>span {
+    position: absolute;
+    top: 292px;
+    font-size: 14px;
+}
+
+.m-con>li:nth-child(1)>svg {
+    width: 30.4px;
+    left: 36px;
+}
+
+.m-con>li:nth-child(1)>span {
+    left: 30px;
+}
+
+.m-con>li:nth-child(2)>svg {
+    width: 55px;
+    left: 110px;
+}
+
+.m-con>li:nth-child(2)>span {
+    left: 124px;
+}
+
+.m-con>li:nth-child(3)>svg {
+    width: 27px;
+    left: 212px;
+}
+
+.m-con>li:nth-child(3)>span {
+    left: 212px;
+}
+
+.m-con>li:nth-child(4)>svg {
+    width: 26px;
+    left: 300px;
+}
+
+.m-con>li:nth-child(4)>span {
+    left: 299px;
+}
+
+/* 灰色间隔小边框 */
+.m-border>li {
+    position: absolute;
+    border: 0.1px solid #f2f2f2;
+}
+
+.m-border>li:nth-child(1) {
+    width: 260px;
+    top: 238px;
+    left: 95px;
+}
+
+.m-border>li:nth-child(2) {
+    -webkit-transform: rotate(-90deg);
+    width: 91px;
+    top: 284px;
+    left: 136.5px;
+}
+
+.m-border>li:nth-child(3) {
+    -webkit-transform: rotate(-90deg);
+    width: 91px;
+    top: 284px;
+    left: 224.5px;
+}
+
+/* 橙色边框 */
+.m-borderTwo>li {
+    position: absolute;
+    border: 0.1px solid #ff6700;
+}
+
+.m-borderTwo>li:nth-child(1) {
+    width: 84px;
+    top: 238px;
+}
+
+.m-borderTwo>li:nth-child(2) {
+    -webkit-transform: rotate(-90deg);
+    width: 91px;
+    top: 284px;
+    left: 48.5px;
+}
+
+.m-borderTwo>li:nth-child(3) {
+    -webkit-transform: rotate(-90deg);
+    width: 279px;
+    top: 378px;
+    left: -130px;
+}
+
+.m-borderTwo>li:nth-child(4) {
+    -webkit-transform: rotate(-90deg);
+    width: 188px;
+    top: 424px;
+    left: 261px;
+}
+
+.m-borderTwo>li:nth-child(5) {
+    width: 261px;
+    top: 330px;
+    left: 94px;
+}
+
+.m-borderTwo>li:nth-child(6) {
+    width: 345px;
+    top: 518px;
+    left: 10px;
+}
+
+/* 输入手机号的文本框 */
+.m-message>li {
+    position: absolute;
+    border: .7px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.m-message>li:nth-child(1) {
+    width: 226px;
+    top: 371px;
+    left: 28px;
+}
+
+.m-message>li:nth-child(2) {
+    width: 226px;
+    top: 401.2px;
+    left: 28px;
+}
+
+.m-message>li:nth-child(3) {
+    width: 226px;
+    top: 431.2px;
+    left: 28px;
+}
+
+.m-message>li:nth-child(4) {
+    -webkit-transform: rotate(-90deg);
+    width: 58px;
+    top: 401.2px;
+    left: -2px;
+}
+
+.m-message>li:nth-child(5) {
+    -webkit-transform: rotate(-90deg);
+    width: 58px;
+    top: 401.2px;
+    left: 225px;
+}
+
+.m-business>li {
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+
+.m-business>li:nth-child(1) {
+    top: 341px;
+    left: 39px;
+    color: #ff6700;
+}
+
+.m-business>li:nth-child(2) {
+    top: 341px;
+    left: 111px;
+}
+
+.m-business>li:nth-child(3) {
+    top: 341px;
+    left: 183px;
+}
+
+.m-business>li:nth-child(4) {
+    top: 341px;
+    left: 254px;
+}
+
+.m-business>li:nth-child(5) {
+    top: 378px;
+    left: 35px;
+}
+
+.m-business>li:nth-child(6) {
+    top: 409px;
+    left: 33px;
+    font-weight: bold;
+}
+
+.m-business>li:nth-child(7) {
+    top: 440px;
+    left: 32px;
+}
+
+.m-business>li:nth-child(8) {
+    top: 440px;
+    left: 80px;
+    color: #ff6700;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.m-business>li>svg {
+    position: absolute;
+}
+
+.m-business>li:nth-child(9)>svg {
+    width: 17.9px;
+    top: 234.7px;
+    left: 323.7px;
+    
+}
+
+.m-business>li:nth-child(10)>svg {
+    width: 12px;
+    top: 340px;
+    left: 54px;
+}
+
+.m-top {
+    position: absolute;
+    width: 82px;
+    height: 32.5px;
+    top: 467.4px;
+    left: 28px;
+    border:none;
+    border-radius: 2px;
+    background-color: #ffaf75;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
