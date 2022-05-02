@@ -1,0 +1,28 @@
+.m-bd {
+  display: flex;
+}
+
+.m-bd> li {
+  height: 30px;
+  width: 60px;
+  border: 1px solid rgb(137, 137, 137);
+}
+
+.m-cont> li {
+  display: none;
+  font-size: 60px;
+  height: 300px;
+  width: 450px;
+  border: 1px solid rgb(137, 137, 137);
+}
+
+.m-cont> li.sel {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-bd> li.sel {
+  background: rgb(181, 181, 181);
+} 

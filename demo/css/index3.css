@@ -1,0 +1,27 @@
+.g-index{
+  position: relative;
+  width: 400px;
+  min-height: 500px;
+  border: 1px solid rgb(41, 41, 41);
+}
+
+.g-index> input {
+  position: absolute;
+  height: 30px;
+  width: 80px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.m-div {
+  display: flex;
+  margin: 9px;
+  width: 380px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+i {
+  flex: 1;
+}
